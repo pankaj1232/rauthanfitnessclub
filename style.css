@@ -1,0 +1,79 @@
+/* css reset */
+body{
+    font-family: 'Lobster', cursive;
+    margin:0px;
+    padding: :0px;
+    background:url("back-img.jpg");
+}
+.left{
+   
+    display: inline-block;
+    position:absolute;
+    left:35px;
+    top:20px;
+    color:white;
+
+}
+.left img{
+    width:138px;
+    
+    
+}
+.mid{
+   
+    display:block;
+    width:45%;
+    margin:20px auto; /*to bring it to center */
+    color:white;
+
+    
+    
+}
+.right{
+   
+    display: inline-block;
+    position:absolute;
+    right:35px;
+    top:20px;
+    color:white;
+
+}
+.navbar{
+    display:inline-block;
+}
+/* to display li on one line */
+.navbar li{
+    display:inline-block;
+    font-size: 16px;
+    
+}
+.navbar li a{
+    color:green;
+    text-decoration: none;
+    padding: 34px 25px;
+    
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+.btn{
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: rgb(107, 129, 6);
+}
+.container{
+    
+    margin: 151px 34px;
+    padding: 7px 71px;
+    width: 70%;
+    border-radius: 36px;
+}
+.container button{
+    margin:15px 40px;
+    width:10%;
+}
+.container h1{
+    color:#0a6515;
+}
